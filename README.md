@@ -1,2 +1,2 @@
 # Fire and Smoke Detection with Representation of Burning Intensity
-This repository is the official implementation of our paper titled "Fire and Smoke Detection with Representation of Burning Intensity" It includes our coder. The repository will be made available until it is accepted.
+This repository is the official implementation of our paper titled "Fire and Smoke Detection with Representation of Burning Intensity". It includes our Fire and Smoke Detection (FSD) method coder and several General Object Detection (SSD, RetinaNet, Faster RCNN,FCOS). We standardized the coding style for easier use. The repository will be made available until it is accepted.
