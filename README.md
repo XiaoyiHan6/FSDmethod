@@ -1,4 +1,4 @@
-#Fire and Smoke Detection with Burning Intensity Representation
+# Fire and Smoke Detection with Burning Intensity Representation
 
 
 
