@@ -42,7 +42,7 @@ This repository is the official implementation of our paper titled "Fire and Smo
 
   &nbsp;&nbsp;&nbsp;
 
-  <a href="https://github.com/XiaoyiHan6/MS-FSDB" target='_blank'>
+  <a href="https://github.com/XiaoyiHan6/FSDmethod" target='_blank'>
 
     <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FXiaoyiHan6%2FMS-FSDB&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=visitors&edge_flat=true">
 
@@ -82,12 +82,9 @@ This repository is the official implementation of our paper titled "Fire and Smo
 
 ---
 
-Our paper has been accepted by prcv2024, and the specific code release time will be after 7.10.
+Our paper has been accepted by acm mm asia2024, and the specific code release time will be after oct. 11.
 
-
-
-This repository is the official implementation of our paper titled " Benchmarking Multi-Scene Fire and Smoke Detection". It includes the Multi-Scene Fire and Smoke Detection (FSD) Bencharmk，five kinds of previous FSD Datasets，and a new testing set from these datasets (all testing sets) we used. We reprocessed the previous FSD datasets and unified the format of the labels for all datasets so that people can use them easily.
-
+This repository is the official implementation of our paper titled "Fire and Smoke Detection with Representation of Burning Intensity". It includes our Fire and Smoke Detection (FSD) method code and several General Object Detection (SSD, RetinaNet, Faster RCNN, FCOS, and our method). We standardized the coding style for easier use. The repository will be made available until it is accepted.
 
 
 ---
