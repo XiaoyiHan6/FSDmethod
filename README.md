@@ -28,7 +28,7 @@
 
     <br>
 
-  Zhejiang University & University of Trento & Hefei University of Technology & Suzhou City University
+  Zhejiang University & China Mobile (Suzhou) Software Technology Co., Ltd. & University of Trento & Hefei University of Technology
 
 </p>
 
