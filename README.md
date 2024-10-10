@@ -10,7 +10,7 @@
 
   <a href="https://arxiv.org/" target='_blank'>
 
-    <img src="https://img.shields.io/badge/Paper-PRCV%202024-1765A5?style=flat-square">
+    <img src="https://img.shields.io/badge/Paper-MMasia%202024-1765A5?style=flat-square">
 
   </a>
 
@@ -19,22 +19,6 @@
   <a href="https://xiaoyihan6.github.io/FSD/" target='_blank'>
 
     <img src="https://img.shields.io/badge/Page-XiaoyiHan6/FSD-C43779?style=flat-square">
-
-  </a>
-
-  &nbsp;&nbsp;&nbsp;
-
-  <a href="" target='_blank'>
-
-    <img src="https://img.shields.io/badge/Data-Previous FSD Datasets-D0E4B3?style=flat-square">
-
-  </a>
-
-  &nbsp;&nbsp;&nbsp;
-
-  <a href="" target='_blank'>
-
-    <img src="https://img.shields.io/badge/Data-MS FSDB-8CC63E?style=flat-square">
 
   </a>
 
