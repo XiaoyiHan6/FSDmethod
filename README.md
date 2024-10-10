@@ -14,7 +14,7 @@
 
         <a href="https://xiaoyihan6.github.io/">Xiaoyi Han</a>,
 	 
-        <a href="">Yanfei Wu</a>,
+        Yanfei Wu,
 
         <a href="https://tpcd.github.io/">Nan Pu</a>,
 
