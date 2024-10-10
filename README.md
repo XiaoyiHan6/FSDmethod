@@ -12,7 +12,7 @@
 
   <a href="https://arxiv.org/" target='_blank'>
 
-    <img src="https://img.shields.io/badge/Paper-MMasia%2024-1765A5?style=flat-square">
+    <img src="https://img.shields.io/badge/Paper-MMasia%2024-1765A5?style=flat-square" alt="Paper Badge">
 
   </a>
 
