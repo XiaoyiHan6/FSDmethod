@@ -8,15 +8,6 @@
 
  </p> 
 
- <p align="center">
-
-  <a href="https://arxiv.org/" target='_blank'>
-
-    <img src="https://img.shields.io/badge/Paper-MMasia%2024-1765A5?style=flat-square" alt="Paper Badge">
-
-  </a>
-
-</p>
 ---
 
 Our paper has been accepted by acm mm asia2024, and the specific code release time will be after oct. 11.
