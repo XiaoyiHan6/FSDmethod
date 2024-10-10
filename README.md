@@ -1,4 +1,4 @@
-# Benchmarking Multi-Scene Fire and Smoke Detection
+#Fire and Smoke Detection with Burning Intensity Representation
 
 
 
