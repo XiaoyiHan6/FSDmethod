@@ -31,32 +31,6 @@
  </a>
 </p>
 
-<p align="center">
-
-  <font size=5><strong>Fire and Smoke Detection with Representation of Burning Intensity</strong></font>
-
-    <br>
-
-        <a href="https://xiaoyihan6.github.io/">Xiaoyi Han</a>,
-	 
-        Yanfei Wu,
-
-        <a href="https://tpcd.github.io/">Nan Pu</a>,
-
-        <a href="https://person.zju.edu.cn/fengzunlei">Zunlei Feng</a>,<br>
-
-        <a href="https://person.zju.edu.cn/zhangqf">Qifei Zhang</a>,
-	
-        <a href="https://person.zju.edu.cn/beiyj">Yijun Bei</a>,
-
-        <a href="https://faculty.hfut.edu.cn/ChengLechao/zh_CN/index.htm">Lechao Cheng</a>,<br>
-
-    <br>
-
-  Zhejiang University & China Mobile (Suzhou) Software Technology Co., Ltd. & University of Trento & Hefei University of Technology
-
-</p>
-
 
 
 ---
