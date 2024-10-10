@@ -4,7 +4,7 @@
 
 <p align="center">
 
-  <img src="./assets/logo_benchmark_FSD.png" align="center" width="100%">
+  <img src="./assets/logo_FSD.png" align="center" width="100%">
 
   
 
