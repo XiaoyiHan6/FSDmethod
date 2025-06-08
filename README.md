@@ -1,6 +1,6 @@
-## Fire and Smoke Detection with Burning Intensity Representation
-
-
+<p align="center">
+<strong>Fire and Smoke Detection with Burning Intensity Representation</strong>
+</p>
 
 <p align="center">
 
@@ -101,5 +101,10 @@ tqdm
 
 ---
 
+<p align="center">
+<strong>Folder Organization</strong>
+</p>
+
+---
 
 **Note**:Could you please give me a "one-click triple support"🔥 ("**Star**"🚀,"**Fork**"🔖,"**Issues**"❓)<br>
