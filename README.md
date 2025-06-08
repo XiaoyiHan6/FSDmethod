@@ -1,5 +1,5 @@
 <p align="center">
-<font size="8">
+<font size="6">
 <strong>Fire and Smoke Detection with Burning Intensity Representation</strong>
 </font>
 </p>
