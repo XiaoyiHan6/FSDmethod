@@ -20,6 +20,10 @@
     <img src="https://img.shields.io/badge/Page-XiaoyiHan6/FSD-C43779?style=flat-square">
   </a>
 &nbsp;&nbsp;&nbsp;
+  <a href="https://github.com/XiaoyiHan6/FSDmethod?tab=readme-ov-file" target='_blank'>
+    <img src="https://img.shields.io/badge/Code-FSD%20method-CD5C5C?style=flat-square">
+  </a>
+&nbsp;&nbsp;&nbsp;
 </p>
 
  </p> 
