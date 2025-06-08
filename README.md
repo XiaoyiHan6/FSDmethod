@@ -47,14 +47,36 @@
 
 ---
 
-Our paper has been accepted by acm mm asia2024, and the specific code release time will be after oct. 11.
+<p align="center">
 
-This repository is the official implementation of our paper titled "Fire and Smoke Detection with Representation of Burning Intensity". It includes our Fire and Smoke Detection (FSD) method code and several General Object Detection (SSD, RetinaNet, Faster RCNN, FCOS, and our method). We standardized the coding style for easier use. The repository will be made available until it is accepted.
+<strong>Note</strong>
+
+ </p>
 
 
+
+Dear Visitors,
+<br>
+We would like to inform you that the currently provided code supports only the following object detection models (or other components):
+
+- SSD
+- RetinaNet
+- FCOS
+- Attentive Transparency Detection Head (ATDH) [We placed the ATDH in FCOS]
+<br>
+
+<br>
+
+Best regards,
+
+<br>
+
+<br>
+
+Xiaoyi Han
 
 ---
 
 
 
-**Note**: Could you please give me a "one-click triple support"🔥 ("**Star**"🚀,"**Fork**"🔖,"**Issues**"❓)<br>
+**Note**:Could you please give me a "one-click triple support"🔥 ("**Star**"🚀,"**Fork**"🔖,"**Issues**"❓)<br>
