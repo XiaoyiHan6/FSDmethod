@@ -68,7 +68,42 @@ Best regards,
 Xiaoyi Han
 
 ---
+<p align="center">
 
+<strong>Compiling environment</strong>
+
+</p>
+
+```
+python == 3.8.5
+
+torch == 1.11.0+cu113
+
+torchaudio == 0.11.0+cu113
+
+torchvision == 0.12.0+cu113
+
+pycocotools == 2.0.4
+
+numpy
+
+Cython
+
+matplotlib
+
+opencv-python  (maybe you want to use skimage or PIL etc...)
+
+scikit-image
+
+tensorboard
+
+tqdm
+
+...
+
+```
+
+---
 
 
 **Note**:Could you please give me a "one-click triple support"🔥 ("**Star**"🚀,"**Fork**"🔖,"**Issues**"❓)<br>
