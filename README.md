@@ -25,8 +25,9 @@
   </a>
 &nbsp;&nbsp;&nbsp;
   <a href="https://github.com/XiaoyiHan6/FSDmethod" target='_blank'>
-    <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FXiaoyiHan6%2FMS-FSDB&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=visitors&edge_flat=true">
- </a>
+    <img src="https://visitor-badge.laobi.icu/badge?page_id=XiaoyiHan6.FSDmethod">
+
+  </a> 
 </p>
  <p align="center">
   <font size=5><strong>Fire and Smoke Detection with Burning Intensity Representation</strong></font>
