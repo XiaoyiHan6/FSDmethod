@@ -49,10 +49,8 @@
 ---
 
 <p align="center">
-
 <strong>Note</strong>
-
- </p>
+</p>
 
 
 
@@ -69,9 +67,7 @@ Xiaoyi Han
 
 ---
 <p align="center">
-
 <strong>Compiling environment</strong>
-
 </p>
 
 ```
