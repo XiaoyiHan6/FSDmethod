@@ -1,4 +1,4 @@
-# Fire and Smoke Detection with Burning Intensity Representation
+## Fire and Smoke Detection with Burning Intensity Representation
 
 
 
@@ -28,8 +28,22 @@
     <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FXiaoyiHan6%2FMS-FSDB&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=visitors&edge_flat=true">
  </a>
 </p>
-
- </p> 
+ <p align="center">
+  <font size=5><strong>Fire and Smoke Detection with Burning Intensity Representation</strong></font>
+    <br>
+        <a href="https://xiaoyihan6.github.io/">Xiaoyi Han</a>,
+	<a/>Yanfei Wu</a>,
+        <a href="https://tpcd.github.io/">Nan Pu</a>,
+        <a href="https://person.zju.edu.cn/fengzunlei">Zunlei Feng</a>,<br>
+        <a href="https://person.zju.edu.cn/zhangqf">Qifei Zhang</a>,
+	<a href="https://person.zju.edu.cn/beiyj">Yijun Bei</a>,
+        <a href="https://faculty.hfut.edu.cn/ChengLechao/zh_CN/index.htm">Lechao Cheng</a><br>
+    <br>
+  Zhejiang University & University of Trento & Hefei University of Technology
+  <br>
+  Accepted to MM Asia 2024
+  </p>
+</p>
 
 ---
 
