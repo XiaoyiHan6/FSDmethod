@@ -7,7 +7,7 @@
   <img src="./assets/images/logo_FSD.png" align="center" width="100%">
 
 <p align="center">
-  <a href="https://link.springer.com/chapter/10.1007/978-981-97-8795-1_14" target='_blank'>
+  <a href="https://dl.acm.org/doi/abs/10.1145/3696409.3700165" target='_blank'>
     <img src="https://img.shields.io/badge/Paper-MM%20Asia%202024-1765A5?style=flat-square">
   </a>
   &nbsp;&nbsp;&nbsp;
