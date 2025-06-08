@@ -58,21 +58,12 @@
 Dear Visitors,
 <br>
 We would like to inform you that the currently provided code supports only the following object detection models (or other components):
-
 - SSD
 - RetinaNet
 - FCOS
 - Attentive Transparency Detection Head (ATDH) [We placed the ATDH in FCOS]
 <br>
-
-<br>
-
 Best regards,
-
-<br>
-
-<br>
-
 Xiaoyi Han
 
 ---
