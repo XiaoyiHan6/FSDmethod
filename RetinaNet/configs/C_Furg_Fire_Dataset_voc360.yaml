@@ -1,0 +1,28 @@
+Models:
+  name: RetinaNet
+Backbones:
+  name: resnet
+  depth: 50
+Head:
+  name: baseline # senet, sknet, atdh baseline
+Data:
+  name: furg-fire-dataset
+  root: '/data/3_furg-fire-dataset-master'
+  size: 360
+Optimize:
+  epoch: 800
+  display_iter: 100
+  display_eval: 49
+  lr: 0.001
+  optim: 'adam'
+  batch_size: 8
+  scheduler: 'MultiStepLR'
+  lr_step: [ 800 ]
+  warmup_steps: 1
+  step: 200
+  gamma: 0.5
+
+  #  0.1   0.01
+  # 1000 [ 500, 800 ] 'sgd' 'MultiStepLR' lr:0.1
+  # 0.001
+  # 800 [ 800 ]  'adam' 'MultiStepLR' lr:0.001

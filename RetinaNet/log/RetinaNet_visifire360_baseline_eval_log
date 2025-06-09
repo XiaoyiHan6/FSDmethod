@@ -1,0 +1,5 @@
+2024-08-03 20:09:27,170 - RetinaNet_visifire360_eval - INFO - Program evaluating started!
+2024-08-03 20:10:00,572 - RetinaNet_visifire360_eval - INFO - AP for fire = 0.8417
+2024-08-03 20:10:00,572 - RetinaNet_visifire360_eval - INFO - AP for smoke = 0.9068
+2024-08-03 20:10:00,572 - RetinaNet_visifire360_eval - INFO - Mean AP = 0.8742
+2024-08-03 20:10:00,572 - RetinaNet_visifire360_eval - INFO - Done!

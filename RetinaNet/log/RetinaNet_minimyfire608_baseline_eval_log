@@ -1,0 +1,5 @@
+2024-08-03 19:34:56,156 - RetinaNet_minimyfire608_eval - INFO - Program evaluating started!
+2024-08-03 19:38:18,314 - RetinaNet_minimyfire608_eval - INFO - AP for fire = 0.8692
+2024-08-03 19:38:18,314 - RetinaNet_minimyfire608_eval - INFO - AP for smoke = 0.8870
+2024-08-03 19:38:18,314 - RetinaNet_minimyfire608_eval - INFO - Mean AP = 0.8781
+2024-08-03 19:38:18,314 - RetinaNet_minimyfire608_eval - INFO - Done!

@@ -1,0 +1,5 @@
+2024-08-03 20:35:41,060 - RetinaNet_fire-smoke-dataset360_eval - INFO - Program evaluating started!
+2024-08-03 20:36:15,627 - RetinaNet_fire-smoke-dataset360_eval - INFO - AP for fire = 0.9072
+2024-08-03 20:36:15,627 - RetinaNet_fire-smoke-dataset360_eval - INFO - AP for smoke = 0.9071
+2024-08-03 20:36:15,627 - RetinaNet_fire-smoke-dataset360_eval - INFO - Mean AP = 0.9071
+2024-08-03 20:36:15,627 - RetinaNet_fire-smoke-dataset360_eval - INFO - Done!

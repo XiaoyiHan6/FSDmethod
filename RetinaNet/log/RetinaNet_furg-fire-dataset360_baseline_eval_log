@@ -1,0 +1,5 @@
+2024-08-03 20:22:23,743 - RetinaNet_furg-fire-dataset360_eval - INFO - Program evaluating started!
+2024-08-03 20:23:24,565 - RetinaNet_furg-fire-dataset360_eval - INFO - AP for fire = 0.8169
+2024-08-03 20:23:24,565 - RetinaNet_furg-fire-dataset360_eval - INFO - AP for smoke = 0.8999
+2024-08-03 20:23:24,565 - RetinaNet_furg-fire-dataset360_eval - INFO - Mean AP = 0.8584
+2024-08-03 20:23:24,565 - RetinaNet_furg-fire-dataset360_eval - INFO - Done!

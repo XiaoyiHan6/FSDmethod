@@ -1,4 +1,3 @@
-2024-08-04 01:07:04,822 - SSD_bowfiredataset300_eval - INFO - Evaluation VOC Dataset Program started
 2024-08-04 01:07:20,775 - SSD_bowfiredataset300_eval - INFO - Evaluation VOC Dataset Program started
 2024-08-04 01:07:22,341 - SSD_bowfiredataset300_eval - INFO - AP for fire = 0.6964
 2024-08-04 01:07:22,341 - SSD_bowfiredataset300_eval - INFO - AP for smoke = 0.8473

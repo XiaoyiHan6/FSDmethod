@@ -1,0 +1,35 @@
+Models:
+  name: RetinaNet
+Backbones:
+  name: resnet
+  depth: 50
+Head:
+  name: atdh # senet, sknet, atdh baseline
+Data:
+  name: minimyfire
+  root: '/data/FireDataset'
+  size: 360 # # remember augmentation need review
+Optimize:
+  epoch: 1300
+  display_iter: 100
+  display_eval: 19
+  lr: 0.0001
+  optim: 'adagrad'
+  batch_size: 8
+  scheduler: 'MultiStepLR'
+  lr_step: [ 200, 400, 1000, 1200 ]
+  warmup_steps: 1
+  step: 200
+  gamma: 0.5
+
+  #       0.01 0.005
+  # 300 [ 150, 300 ]  'asgd'  'MultiStepLR'  lr:0.01
+
+  # resume RetinaNet_resnet50_myfire_trainval360_baseline_best_8555.pth
+  #      0.001 0.005 0.00025
+  # 700 [300, 600, 700 ] 'adam' 'MultiStepLR'  lr:0.001
+
+  # when train atdh
+  # 0.01, 0.005  0.0025
+  # 500 [200, 400, 500] 'asgd' 'MultiStepLR' lr:0.01
+  # 2000 [500, 1000, 1500, 2000]      'adagrad' 'MultiStepLR' lr:0.00005 0.0001 0.0005 0.001

@@ -1,0 +1,5 @@
+2024-08-03 20:33:02,151 - RetinaNet_bowfiredataset360_eval - INFO - Program evaluating started!
+2024-08-03 20:33:08,563 - RetinaNet_bowfiredataset360_eval - INFO - AP for fire = 0.7215
+2024-08-03 20:33:08,563 - RetinaNet_bowfiredataset360_eval - INFO - AP for smoke = 0.8840
+2024-08-03 20:33:08,563 - RetinaNet_bowfiredataset360_eval - INFO - Mean AP = 0.8027
+2024-08-03 20:33:08,563 - RetinaNet_bowfiredataset360_eval - INFO - Done!
