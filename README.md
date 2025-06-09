@@ -128,6 +128,7 @@ projects
       └── utils
 
 ```
+We use <strong>MyFireNet</strong> instead of the name <strong>FCOS</strong>.
 
 ---
 
