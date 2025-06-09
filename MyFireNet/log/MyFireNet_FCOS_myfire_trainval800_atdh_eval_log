@@ -1,0 +1,4 @@
+2024-03-04 16:11:04,567 - MyFireNet_FCOS_myfire_trainval800_eval - INFO - Program evaluating started!
+2024-03-04 16:17:38,373 - MyFireNet_FCOS_myfire_trainval800_eval - INFO - AP for fire is 0.9871
+2024-03-04 16:17:38,373 - MyFireNet_FCOS_myfire_trainval800_eval - INFO - AP for smoke is 0.9845
+2024-03-04 16:17:38,374 - MyFireNet_FCOS_myfire_trainval800_eval - INFO - Mean AP = 0.9858

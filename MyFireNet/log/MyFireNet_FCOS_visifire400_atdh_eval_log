@@ -1,0 +1,4 @@
+2024-08-03 21:45:00,259 - MyFireNet_FCOS_visifire400_eval - INFO - Program evaluating started!
+2024-08-03 21:45:20,537 - MyFireNet_FCOS_visifire400_eval - INFO - AP for fire is 0.9618
+2024-08-03 21:45:20,537 - MyFireNet_FCOS_visifire400_eval - INFO - AP for smoke is 0.9944
+2024-08-03 21:45:20,537 - MyFireNet_FCOS_visifire400_eval - INFO - Mean AP = 0.9781

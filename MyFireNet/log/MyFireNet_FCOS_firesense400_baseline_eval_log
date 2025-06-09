@@ -1,0 +1,4 @@
+2024-08-03 23:29:29,674 - MyFireNet_FCOS_firesense400_eval - INFO - Program evaluating started!
+2024-08-03 23:30:06,309 - MyFireNet_FCOS_firesense400_eval - INFO - AP for fire is 0.9609
+2024-08-03 23:30:06,309 - MyFireNet_FCOS_firesense400_eval - INFO - AP for smoke is 0.9609
+2024-08-03 23:30:06,309 - MyFireNet_FCOS_firesense400_eval - INFO - Mean AP = 0.9609

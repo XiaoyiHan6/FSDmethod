@@ -1,0 +1,46 @@
+Models:
+  name: MyFireNet_FCOS
+  pretrained: False
+  freeze_bn: True
+  freeze_stage_1: True
+Backbones:
+  name: resnet
+  depth: 50
+Neck:
+  use_p5: True
+  fpn_out_channels: 256
+Head:
+  use_GN_head: True
+  cnt_on_reg: False
+  prior: 0.01
+Training:
+  strides: [ 8, 16, 32, 64, 128 ]
+  limit_range: [ [ -1,64 ],[ 64,128 ],[ 128,256 ],[ 256,512 ],[ 512,999999 ] ]
+Inference:
+  score_threshold: 0.3
+  nms_iou_threshold: 0.4
+  max_detection_boxes_num: 300
+Loss:
+  add_centerness: True
+Data:
+  name: firesense
+  root: '/data/2_FIRESENSE'
+  size: [ 400, 666 ]
+  class_num: 2
+Optimize:
+  epoch: 400
+  display_iter: 100
+  display_eval: 9
+  lr: 0.002
+  optim: 'asgd'
+  batch_size: 8
+  scheduler: 'MultiStepLR'
+  lr_step: [ 200, 400 ]
+  warmup_steps: 1
+  step: 200
+  gamma: 0.1
+
+  #  0.1   0.01
+  # 600 [ 300, 600 ] 'sgd' 'MultiStepLR' lr:0.1
+  # 0.001
+  # [ 600 ]  'adam' 'MultiStepLR' lr:0.001

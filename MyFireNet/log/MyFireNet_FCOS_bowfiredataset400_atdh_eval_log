@@ -1,0 +1,4 @@
+2024-08-03 21:52:48,896 - MyFireNet_FCOS_bowfiredataset400_eval - INFO - Program evaluating started!
+2024-08-03 21:52:56,505 - MyFireNet_FCOS_bowfiredataset400_eval - INFO - AP for fire is 0.8608
+2024-08-03 21:52:56,505 - MyFireNet_FCOS_bowfiredataset400_eval - INFO - AP for smoke is 0.9793
+2024-08-03 21:52:56,505 - MyFireNet_FCOS_bowfiredataset400_eval - INFO - Mean AP = 0.9200
