@@ -164,6 +164,10 @@ run visualize.py
 <strong>Results</strong>
 </h2>
 
+<h3 align="center">
+<strong>Quantitative Results</strong>
+</h3>
+
 Table 1: Baseline model comparison across different datasets. Fire, Smoke and mAP are given in the subsection "Setting and Details". "avg" represents the average of mAP (mean Average Precision) values of all models across the FSD datasets. "s" represents the input image of small size, while "l" represents the input image of large size. F-RCNN means Faster RCNN.
 
 | Dataset                   | SSD (s/l) Fire | Smoke | mAP  | RetinaNet (s/l) Fire | Smoke | mAP  | F-RCNN (s/l) Fire | Smoke | mAP  | FCOS (s/l) Fire | Smoke | mAP  | a-FSDM (s/l) Fire | Smoke | mAP  | <span style="color:red"> avg (mAP) </span> |
@@ -178,8 +182,8 @@ Table 1: Baseline model comparison across different datasets. Fire, Smoke and mA
 | miniMS-FSDB (l)           | 75.9           | 87.1  | 81.5 | 87.0                 | 88.4  | 87.7 | 98.0             | 94.1  | 96.1 | 95.5           | 96.2  | 95.8 | **98.1**        | **97.6** | **97.9** | <span style="color:red"> 91.8 </span>     |
 | MS-FSDB (l)               | 88.0           | 90.9  | 89.4 | 89.5                 | 89.6  | 89.6 | 97.3             | 95.9  | 96.6 | 96.0           | 96.7  | 96.3 | **98.4**        | **98.6** | **98.5** | <span style="color:red"> 94.1 </span>     |
 
-
 ---
+
 Table 2: Comparison between generic detection heads and the Attention Transparency Detection Head (ATDH) across the MS-FSDB. Fire, Smoke and "mAP" are given in the subsetion “Setting and Details”. “s" represents the input image of small size, while “l" represents the input image of large size.
 | Model               | Dataset        | Fire  | Smoke | mAP   | Fire  | Smoke | mAP   | Fire  | Smoke | mAP   | Fire  | Smoke | mAP   |
 |---------------------|---------------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
@@ -192,6 +196,30 @@ Table 2: Comparison between generic detection heads and the Attention Transparen
 | ~+ATDH              |               | **98.2** | **98.1** | **98.2** | **98.3** | **96.8** | **97.5** | **98.6** | **98.3** | **98.4** | **99.2** | **98.2** | **98.7** |
 | FCOS                |               | 94.1  | 95.9  | 95.0  | 95.6  | 98.4  | 97.0  | 95.5  | 96.2  | 95.8  | 96.0  | 96.7  | 96.3  |
 | ~+ATDH              |               | **98.3** | **99.3** | **98.8** | **97.1** | **98.9** | **98.0** | **98.1** | **97.6** | **97.9** | **98.4** | **98.6** | **98.5** |
+
+---
+
+Table 3: The attention mechanism algorithm added to the baseline (FCOS) on the MS-FSDB. Fire, Smoke and "mAP" are given in the subsetion “Setting and Details”. the input image of small size is used.
+| Model          | Dataset       | Fire  | Smoke | mAP   | Fire  | Smoke | mAP   |
+|----------------|---------------|-------|-------|-------|-------|-------|-------|
+|                |               | **miniMS-FSDB** |       |       | **MS-FSDB** |       |       |
+| FCOS           |               | 94.1  | 95.9  | 95.0  | 95.6  | 98.4  | 97.0  |
+| +SENet         |               | 95.9  | 98.1  | 97.0  | 94.7  | 98.0  | 96.3  |
+| +SKNet         |               | 97.0  | 98.3  | 97.7  | 95.9  | 98.3  | 97.1  |
+| +ATDH          |               | **98.3** | **99.3** | **98.8** | **97.1** | **98.9** | **98.0** |
+
+---
+<h3 align="center">
+<strong>Qualitative Results</strong>
+</h3>
+
+The Detection of Transparent Targets Images in FSD, (a) the false results of generic detection, (b) that the proposed method successfully detected the previous failure result. In the diagram, blue boxes represent ground truth and red boxes represent predicted results.
+
+<h4>Row 1 (Generic Detection Results)</h4>
+<img src="assets/images/4a1.jpg" width="23%"> <img src="assets/images/4a2.jpg" width="23%"> <img src="assets/images/4a3.jpg" width="23%"> <img src="assets/images/4a4.jpg" width="23%"> 
+
+<h4>Row 2 (Proposed Method Results)</h4>
+<img src="assets/images/4b1.jpg" width="23%"> <img src="assets/images/4b2.jpg" width="23%"> <img src="assets/images/4b3.jpg" width="23%"> <img src="assets/images/4b4.jpg" width="23%"> 
 
 ---
 
