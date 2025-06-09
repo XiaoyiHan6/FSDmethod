@@ -160,5 +160,196 @@ run eval_voc.py
 run visualize.py
 ```
 ---
+<h2 align="center">
+<strong>Results</strong>
+</h2>
+
+<table>
+    <caption style="text-align: left">Table 1:Baseline model comparison across different datasets. Fire, Smoke and mAP are given in the subsection "Setting and Details". "avg" represents the average of mAP (mean Average Precision) values of all models across the FSD datasets. "s" represents the input image of small size, while "l" represents the input image of large size. F-RCNN means Faster RCNN.</caption>
+    <thead>
+        <tr>
+            <th rowspan="2">Dataset</th>
+            <th colspan="3">SSD (s/l)</th>
+            <th colspan="3">RetinaNet (s/l)</th>
+            <th colspan="3">F-RCNN (s/l)</th>
+            <th colspan="3">FCOS (s/l)</th>
+            <th colspan="3">a-FSDM (s/l)</th>
+            <th rowspan="2">avg (mAP)</th>
+        </tr>
+        <tr>
+            <th>Fire</th><th>Smoke</th><th>mAP</th>
+            <th>Fire</th><th>Smoke</th><th>mAP</th>
+            <th>Fire</th><th>Smoke</th><th>mAP</th>
+            <th>Fire</th><th>Smoke</th><th>mAP</th>
+            <th>Fire</th><th>Smoke</th><th>mAP</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Fire-Smoke-Dataset (s)</td>
+            <td>77.5</td><td>90.8</td><td>84.1</td>
+            <td>90.7</td><td>90.7</td><td>90.7</td>
+            <td>97.3</td><td>93.2</td><td>95.3</td>
+            <td>97.2</td><td>98.5</td><td>97.8</td>
+            <td><strong>97.5</strong></td><td><strong>99.2</strong></td><td><strong>98.3</strong></td>
+            <td style="color: red;">93.2</td>
+        </tr>
+        <tr>
+            <td>Furg-Fire-Dataset (s)</td>
+            <td>75.8</td><td>86.9</td><td>81.4</td>
+            <td>81.7</td><td>90.0</td><td>85.8</td>
+            <td><strong>95.8</strong></td><td>93.4</td><td>94.6</td>
+            <td>93.7</td><td><strong>98.1</strong></td><td>95.9</td>
+            <td>94.2</td><td><strong>98.1</strong></td><td><strong>96.1</strong></td>
+            <td style="color: red;">90.8</td>
+        </tr>
+        <tr>
+            <td>VisiFire (s)</td>
+            <td>78.2</td><td>89.5</td><td>83.9</td>
+            <td>84.2</td><td>90.7</td><td>87.4</td>
+            <td>92.8</td><td>88.8</td><td>90.8</td>
+            <td>88.8</td><td>96.7</td><td>92.8</td>
+            <td><strong>96.2</strong></td><td><strong>99.4</strong></td><td><strong>97.8</strong></td>
+            <td style="color: red;">90.5</td>
+        </tr>
+        <tr>
+            <td>FIRESENSE (s)</td>
+            <td>89.0</td><td>90.4</td><td>89.7</td>
+            <td>90.9</td><td>90.9</td><td>90.9</td>
+            <td>96.8</td><td>95.8</td><td>96.3</td>
+            <td>96.1</td><td>96.1</td><td>96.1</td>
+            <td><strong>98.3</strong></td><td><strong>98.1</strong></td><td><strong>98.2</strong></td>
+            <td style="color: red;">94.2</td>
+        </tr>
+        <tr>
+            <td>BoWFireDataset (s)</td>
+            <td>69.6</td><td>84.7</td><td>77.1</td>
+            <td>72.3</td><td>88.4</td><td>80.3</td>
+            <td><strong>86.3</strong></td><td>95.0</td><td>90.6</td>
+            <td>85.1</td><td>95.2</td><td>90.2</td>
+            <td>86.1</td><td><strong>97.9</strong></td><td><strong>92.0</strong></td>
+            <td style="color: red;">86.0</td>
+        </tr>
+        <tr>
+            <td>miniMS-FSDB (s)</td>
+            <td>71.2</td><td>84.4</td><td>77.8</td>
+            <td>80.4</td><td>89.4</td><td>84.9</td>
+            <td>98.0</td><td>93.0</td><td>95.5</td>
+            <td>94.1</td><td>95.9</td><td>95.0</td>
+            <td><strong>98.3</strong></td><td><strong>99.3</strong></td><td><strong>98.8</strong></td>
+            <td style="color: red;">90.4</td>
+        </tr>
+        <tr>
+            <td>MS-FSDB (s)</td>
+            <td>81.0</td><td>90.2</td><td>85.6</td>
+            <td>81.0</td><td>90.5</td><td>85.8</td>
+            <td><strong>98.2</strong></td><td>93.5</td><td>95.8</td>
+            <td>95.6</td><td>98.4</td><td>97.0</td>
+            <td>97.1</td><td><strong>98.9</strong></td><td><strong>98.0</strong></td>
+            <td style="color: red;">92.4</td>
+        </tr>
+        <tr>
+            <td>miniMS-FSDB (l)</td>
+            <td>75.9</td><td>87.1</td><td>81.5</td>
+            <td>87.0</td><td>88.4</td><td>87.7</td>
+            <td>98.0</td><td>94.1</td><td>96.1</td>
+            <td>95.5</td><td>96.2</td><td>95.8</td>
+            <td><strong>98.1</strong></td><td><strong>97.6</strong></td><td><strong>97.9</strong></td>
+            <td style="color: red;">91.8</td>
+        </tr>
+        <tr>
+            <td>MS-FSDB (l)</td>
+            <td>88.0</td><td>90.9</td><td>89.4</td>
+            <td>89.5</td><td>89.6</td><td>89.6</td>
+            <td>97.3</td><td>95.9</td><td>96.6</td>
+            <td>96.0</td><td>96.7</td><td>96.3</td>
+            <td><strong>98.4</strong></td><td><strong>98.6</strong></td><td><strong>98.5</strong></td>
+            <td style="color: red;">94.1</td>
+        </tr>
+    </tbody>
+</table>
+
+---
+
+<table>
+    <caption style="text-align: left">Table 2:Comparison between generic detection heads and the Attention Transparency Detection Head (ATDH) across the MS-FSDB. Fire, Smoke and mAP are given in the subsection "Setting and Details". "s" represents the input image of small size, while "l" represents the input image of large size.
+    </caption>
+    <thead>
+        <tr>
+            <th rowspan="2" style="border-bottom: 2px solid #000; text-align: left; padding: 8px;">Model</th>
+            <th rowspan="2" style="border-bottom: 2px solid #000; text-align: left; padding: 8px;">Dataset</th>
+            <th colspan="3" style="border-bottom: 1px solid #ddd; padding: 8px;">miniMS-FSDB(s)</th>
+            <th colspan="3" style="border-bottom: 1px solid #ddd; padding: 8px;">MS-FSDB(s)</th>
+            <th colspan="3" style="border-bottom: 1px solid #ddd; padding: 8px;">miniMS-FSDB(l)</th>
+            <th colspan="3" style="border-bottom: 1px solid #ddd; padding: 8px;">MS-FSDB(l)</th>
+        </tr>
+        <tr>
+            <th style="padding: 8px;">Fire</th>
+            <th style="padding: 8px;">Smoke</th>
+            <th style="padding: 8px;">mAP</th>
+            <th style="padding: 8px;">Fire</th>
+            <th style="padding: 8px;">Smoke</th>
+            <th style="padding: 8px;">mAP</th>
+            <th style="padding: 8px;">Fire</th>
+            <th style="padding: 8px;">Smoke</th>
+            <th style="padding: 8px;">mAP</th>
+            <th style="padding: 8px;">Fire</th>
+            <th style="padding: 8px;">Smoke</th>
+            <th style="padding: 8px;">mAP</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan="2" style="border-left: 1px solid #000; text-align: left; padding: 8px; vertical-align: top;">SSD</td>
+            <td style="text-align: left; padding: 8px;"></td>
+            <td>71.2</td><td>84.4</td><td>77.8</td>
+            <td>81.0</td><td>90.2</td><td>85.6</td>
+            <td>75.9</td><td>87.1</td><td>81.5</td>
+            <td>88.0</td><td><strong>90.9</strong></td><td>89.4</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; padding: 8px;">+ATDH</td>
+            <td><strong>89.8</strong></td><td><strong>90.9</strong></td><td><strong>90.3</strong></td>
+            <td><strong>87.7</strong></td><td><strong>90.9</strong></td><td><strong>89.3</strong></td>
+            <td><strong>90.5</strong></td><td><strong>90.9</strong></td><td><strong>90.7</strong></td>
+            <td><strong>89.6</strong></td><td>90.8</td><td><strong>90.2</strong></td>
+        </tr>
+        
+        <tr style="border-top: 1px solid #ddd;">
+            <td rowspan="2" style="border-left: 1px solid #000; text-align: left; padding: 8px; vertical-align: top;">RetinaNet</td>
+            <td style="text-align: left; padding: 8px;"></td>
+            <td>80.4</td><td>89.4</td><td>84.9</td>
+            <td>81.0</td><td>90.5</td><td>85.8</td>
+            <td>87.0</td><td>88.4</td><td>87.7</td>
+            <td>89.5</td><td>89.6</td><td>89.6</td>
+        </tr>
+        <tr>
+            <td style="text-align: left; padding: 8px;">+ATDH</td>
+            <td><strong>87.8</strong></td><td><strong>90.9</strong></td><td><strong>89.3</strong></td>
+            <td><strong>81.8</strong></td><td><strong>90.9</strong></td><td><strong>86.4</strong></td>
+            <td><strong>90.4</strong></td><td><strong>90.0</strong></td><td><strong>90.2</strong></td>
+            <td><strong>90.8</strong></td><td><strong>90.9</strong></td><td><strong>90.7</strong></td>
+        </tr>
+        
+        <tr style="border-top: 1px solid #ddd;">
+            <td rowspan="2" style="border-left: 1px solid #000; text-align: left; padding: 8px; vertical-align: top;">FCOS</td>
+            <td style="text-align: left; padding: 8px;"></td>
+            <td>94.1</td><td>95.9</td><td>95.0</td>
+            <td>95.6</td><td>98.4</td><td>97.0</td>
+            <td>95.5</td><td>96.2</td><td>95.8</td>
+            <td>96.0</td><td>96.7</td><td>96.3</td>
+        </tr>
+        <tr style="border-bottom: 2px solid #000;">
+            <td style="text-align: left; padding: 8px;">+ATDH</td>
+            <td><strong>98.3</strong></td><td><strong>99.3</strong></td><td><strong>98.8</strong></td>
+            <td><strong>97.1</strong></td><td><strong>98.9</strong></td><td><strong>98.0</strong></td>
+            <td><strong>98.1</strong></td><td><strong>97.6</strong></td><td><strong>97.9</strong></td>
+            <td><strong>98.4</strong></td><td><strong>98.6</strong></td><td><strong>98.5</strong></td>
+        </tr>
+    </tbody>
+</table>
+
+
+---
 
 **Note**:Could you please give me a "one-click triple support"🔥 ("**Star**"🚀,"**Fork**"🔖,"**Issues**"❓)<br>
