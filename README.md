@@ -46,11 +46,7 @@
 
 ---
 
-<p align="center">
-<strong>Note</strong>
-</p>
-
-
+<h2 align="center"><strong>Note</strong></h2>
 
 Dear Visitors,
 <br>
@@ -65,9 +61,7 @@ Best regards,
 Xiaoyi Han
 
 ---
-<p align="center">
-<strong>Compiling environment</strong>
-</p>
+<h2 align="center"><strong>Compiling environment</strong></h2>
 
 ```
 python == 3.8.5
@@ -100,9 +94,7 @@ tqdm
 
 ---
 
-<p align="center">
-<strong>Folder Organization</strong>
-</p>
+<h2 align="center"><strong>Folder Organization</strong><h2>
 
 I use Ubuntu20.04 (OS).
 
@@ -115,7 +107,7 @@ projects
 ├── README.md
 ├── SSD (the same as FCOS)
 ├── RetinaNet (the same as FCOS)
-└── FCOS
+└── MyFireNet (FCOS)
       ├── checkpoints
       ├── configs
       ├── data
@@ -129,6 +121,10 @@ projects
 
 ```
 We use <strong>MyFireNet</strong> instead of the name <strong>FCOS</strong>.
+
+---
+
+<h2 align="center"><strong>Training and Evaluation</strong></h2>
 
 ---
 
