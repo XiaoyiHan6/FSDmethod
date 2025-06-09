@@ -269,6 +269,31 @@ run visualize.py
     </tbody>
 </table>
 
+<style>
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 20px 0;
+        font-family: Arial, sans-serif;
+    }
+    caption {
+        font-weight: bold;
+        margin-bottom: 10px;
+        text-align: left;
+    }
+    th, td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: center;
+    }
+    th {
+        background-color: #f2f2f2;
+    }
+    tr:nth-child(even) {
+        background-color: #f9f9f9;
+    }
+</style>
+
 ---
 
 <table>
