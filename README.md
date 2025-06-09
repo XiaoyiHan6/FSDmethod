@@ -6,7 +6,7 @@
   <img src="./assets/images/logo_FSD.png" align="center" width="100%">
 
 <p align="center">
-  <a href="https://link.springer.com/chapter/10.1007/978-981-97-8795-1_14" target='_blank'>
+  <a href="https://dl.acm.org/doi/10.1145/3696409.3700165" target='_blank'>
     <img src="https://img.shields.io/badge/Paper-MM%20Asia%202024-1765A5?style=flat-square">
   </a>
 &nbsp;&nbsp;&nbsp;
@@ -238,31 +238,25 @@ The Detection of Transparent Targets Images in FSD, (a) the false results of gen
 </h2>
  
 ```
-@InProceedings{han2024mmAsia,
-author="Han, Xiaoyi
-and Pu, Nan
-and Feng, Zunlei
-and Bei, Yijun
-and Zhang, Qifei
-and Cheng, Lechao
-and Xue, Liang",
-editor="Lin, Zhouchen
-and Cheng, Ming-Ming
-and He, Ran
-and Ubul, Kurban
-and Silamu, Wushouer
-and Zha, Hongbin
-and Zhou, Jie
-and Liu, Cheng-Lin",
-title="Benchmarking Multi-Scene Fire and Smoke Detection",
-booktitle="Pattern Recognition and Computer Vision",
-year="2025",
-publisher="Springer Nature Singapore",
-address="Singapore",
-pages="203--218",
-abstract="The current irregularities in existing public Fire and Smoke Detection (FSD) datasets have become a bottleneck in the advancement of FSD technology. Upon in-depth analysis, we identify the core issue as the lack of standardized dataset construction, uniform evaluation systems, and clear performance benchmarks. To address this issue and drive innovation in FSD technology, we systematically gather diverse resources from public sources to create a more comprehensive and refined FSD benchmark. Additionally, recognizing the inadequate coverage of existing dataset scenes, we strategically expand scenes, relabel, and standardize existing public FSD datasets to ensure accuracy and consistency. We aim to establish a standardized, realistic, unified, and efficient FSD research platform that mirrors real-life scenes closely. Through our efforts, we aim to provide robust support for the breakthrough and development of FSD technology. The project is available at https://xiaoyihan6.github.io/FSD/.",
-isbn="978-981-97-8795-1"
+@inproceedings{han2024mmAsia,
+author = {Han, Xiaoyi and Wu, Yanfei and Pu, Nan and Feng, Zunlei and Zhang, Qifei and Bei, Yijun and Cheng, Lechao},
+title = {Fire and Smoke Detection with Burning Intensity Representation},
+year = {2024},
+isbn = {9798400712739},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3696409.3700165},
+doi = {10.1145/3696409.3700165},
+abstract = {An effective Fire and Smoke Detection (FSD) and analysis system is of paramount importance due to the destructive potential of fire disasters. However, many existing FSD methods directly employ generic object detection techniques without considering the transparency of fire and smoke, which leads to imprecise localization and reduces detection performance. To address this issue, a new Attentive Fire and Smoke Detection Model (a-FSDM) is proposed. This model not only retains the robust feature extraction and fusion capabilities of conventional detection algorithms but also redesigns the detection head specifically for transparent targets in FSD, termed the Attentive Transparency Detection Head (ATDH). In addition, Burning Intensity (BI) is introduced as a pivotal feature for fire-related downstream risk assessments in traditional FSD methodologies. Extensive experiments on multiple FSD datasets showcase the effectiveness and versatility of the proposed FSD model. The project is available at https://xiaoyihan6.github.io/FSD/.1},
+booktitle = {Proceedings of the 6th ACM International Conference on Multimedia in Asia},
+articleno = {5},
+numpages = {8},
+keywords = {Fire and Smoke Detection, Attentive Transparency Detection Head, Burning Intensity},
+location = {
+},
+series = {MMAsia '24}
 }
+
 
 ```
 
