@@ -147,8 +147,8 @@ We use <strong>MyFireNet</strong> instead of the name <strong>FCOS</strong>.
 </h2>
 
 ```
-# SSD
-# path:/data/PycharmProject/FSDmethod/SSD/tools
+# Object Detection(SSD, RetinaNet, FCOS)
+# path:/data/PycharmProject/FSDmethod/Object Detection/tools
 
 # Training 
 run train.py
