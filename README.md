@@ -1,15 +1,11 @@
-<p align="center">
-<font size="8">
+<h1 align="center">
 <strong>Fire and Smoke Detection with Burning Intensity Representation</strong>
-</font>
-</p>
+</h1>
 
 <p align="center">
-
   <img src="./assets/images/logo_FSD.png" align="center" width="100%">
 
 <p align="center">
-
   <a href="https://link.springer.com/chapter/10.1007/978-981-97-8795-1_14" target='_blank'>
     <img src="https://img.shields.io/badge/Paper-MM%20Asia%202024-1765A5?style=flat-square">
   </a>
@@ -65,6 +61,7 @@ We would like to inform you that the currently provided code supports only the f
 - Attentive Transparency Detection Head (ATDH) [We placed the ATDH in FCOS]
 <br>
 Best regards,
+<br>
 Xiaoyi Han
 
 ---
