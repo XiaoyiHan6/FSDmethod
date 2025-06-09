@@ -164,7 +164,7 @@ run visualize.py
 <strong>Results</strong>
 </h2>
 
-Table 1:Baseline model comparison across different datasets. Fire, Smoke and mAP are given in the subsection "Setting and Details". "avg" represents the average of mAP (mean Average Precision) values of all models across the FSD datasets. "s" represents the input image of small size, while "l" represents the input image of large size. F-RCNN means Faster RCNN.
+Table 1: Baseline model comparison across different datasets. Fire, Smoke and mAP are given in the subsection "Setting and Details". "avg" represents the average of mAP (mean Average Precision) values of all models across the FSD datasets. "s" represents the input image of small size, while "l" represents the input image of large size. F-RCNN means Faster RCNN.
 
 | Dataset                   | SSD (s/l) Fire | Smoke | mAP  | RetinaNet (s/l) Fire | Smoke | mAP  | F-RCNN (s/l) Fire | Smoke | mAP  | FCOS (s/l) Fire | Smoke | mAP  | a-FSDM (s/l) Fire | Smoke | mAP  | <span style="color:red"> avg (mAP) </span> |
 |---------------------------|----------------|-------|------|-----------------------|-------|------|-------------------|-------|------|-----------------|-------|------|------------------|-------|------|-----------|
@@ -180,85 +180,18 @@ Table 1:Baseline model comparison across different datasets. Fire, Smoke and mAP
 
 
 ---
-
-<table>
-    <caption style="text-align: left">Table 2:Comparison between generic detection heads and the Attention Transparency Detection Head (ATDH) across the MS-FSDB. Fire, Smoke and mAP are given in the subsection "Setting and Details". "s" represents the input image of small size, while "l" represents the input image of large size.
-    </caption>
-    <thead>
-        <tr>
-            <th rowspan="2" style="border-bottom: 2px solid #000; text-align: left; padding: 8px;">Model</th>
-            <th rowspan="2" style="border-bottom: 2px solid #000; text-align: left; padding: 8px;">Dataset</th>
-            <th colspan="3" style="border-bottom: 1px solid #ddd; padding: 8px;">miniMS-FSDB(s)</th>
-            <th colspan="3" style="border-bottom: 1px solid #ddd; padding: 8px;">MS-FSDB(s)</th>
-            <th colspan="3" style="border-bottom: 1px solid #ddd; padding: 8px;">miniMS-FSDB(l)</th>
-            <th colspan="3" style="border-bottom: 1px solid #ddd; padding: 8px;">MS-FSDB(l)</th>
-        </tr>
-        <tr>
-            <th style="padding: 8px;">Fire</th>
-            <th style="padding: 8px;">Smoke</th>
-            <th style="padding: 8px;">mAP</th>
-            <th style="padding: 8px;">Fire</th>
-            <th style="padding: 8px;">Smoke</th>
-            <th style="padding: 8px;">mAP</th>
-            <th style="padding: 8px;">Fire</th>
-            <th style="padding: 8px;">Smoke</th>
-            <th style="padding: 8px;">mAP</th>
-            <th style="padding: 8px;">Fire</th>
-            <th style="padding: 8px;">Smoke</th>
-            <th style="padding: 8px;">mAP</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td rowspan="2" style="border-left: 1px solid #000; text-align: left; padding: 8px; vertical-align: top;">SSD</td>
-            <td style="text-align: left; padding: 8px;"></td>
-            <td>71.2</td><td>84.4</td><td>77.8</td>
-            <td>81.0</td><td>90.2</td><td>85.6</td>
-            <td>75.9</td><td>87.1</td><td>81.5</td>
-            <td>88.0</td><td><strong>90.9</strong></td><td>89.4</td>
-        </tr>
-        <tr>
-            <td style="text-align: left; padding: 8px;">+ATDH</td>
-            <td><strong>89.8</strong></td><td><strong>90.9</strong></td><td><strong>90.3</strong></td>
-            <td><strong>87.7</strong></td><td><strong>90.9</strong></td><td><strong>89.3</strong></td>
-            <td><strong>90.5</strong></td><td><strong>90.9</strong></td><td><strong>90.7</strong></td>
-            <td><strong>89.6</strong></td><td>90.8</td><td><strong>90.2</strong></td>
-        </tr>
-        
-        <tr style="border-top: 1px solid #ddd;">
-            <td rowspan="2" style="border-left: 1px solid #000; text-align: left; padding: 8px; vertical-align: top;">RetinaNet</td>
-            <td style="text-align: left; padding: 8px;"></td>
-            <td>80.4</td><td>89.4</td><td>84.9</td>
-            <td>81.0</td><td>90.5</td><td>85.8</td>
-            <td>87.0</td><td>88.4</td><td>87.7</td>
-            <td>89.5</td><td>89.6</td><td>89.6</td>
-        </tr>
-        <tr>
-            <td style="text-align: left; padding: 8px;">+ATDH</td>
-            <td><strong>87.8</strong></td><td><strong>90.9</strong></td><td><strong>89.3</strong></td>
-            <td><strong>81.8</strong></td><td><strong>90.9</strong></td><td><strong>86.4</strong></td>
-            <td><strong>90.4</strong></td><td><strong>90.0</strong></td><td><strong>90.2</strong></td>
-            <td><strong>90.8</strong></td><td><strong>90.9</strong></td><td><strong>90.7</strong></td>
-        </tr>
-        
-        <tr style="border-top: 1px solid #ddd;">
-            <td rowspan="2" style="border-left: 1px solid #000; text-align: left; padding: 8px; vertical-align: top;">FCOS</td>
-            <td style="text-align: left; padding: 8px;"></td>
-            <td>94.1</td><td>95.9</td><td>95.0</td>
-            <td>95.6</td><td>98.4</td><td>97.0</td>
-            <td>95.5</td><td>96.2</td><td>95.8</td>
-            <td>96.0</td><td>96.7</td><td>96.3</td>
-        </tr>
-        <tr style="border-bottom: 2px solid #000;">
-            <td style="text-align: left; padding: 8px;">+ATDH</td>
-            <td><strong>98.3</strong></td><td><strong>99.3</strong></td><td><strong>98.8</strong></td>
-            <td><strong>97.1</strong></td><td><strong>98.9</strong></td><td><strong>98.0</strong></td>
-            <td><strong>98.1</strong></td><td><strong>97.6</strong></td><td><strong>97.9</strong></td>
-            <td><strong>98.4</strong></td><td><strong>98.6</strong></td><td><strong>98.5</strong></td>
-        </tr>
-    </tbody>
-</table>
-
+Table 2: Comparison between generic detection heads and the Attention Transparency Detection Head (ATDH) across the MS-FSDB. Fire, Smoke and "mAP" are given in the subsetion “Setting and Details”. “s" represents the input image of small size, while “l" represents the input image of large size.
+| Model               | Dataset        | Fire  | Smoke | mAP   | Fire  | Smoke | mAP   | Fire  | Smoke | mAP   | Fire  | Smoke | mAP   |
+|---------------------|---------------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
+|                     |               | **miniMS-FSDB(s)** |       |       | **MS-FSDB(s)** |       |       | **miniMS-FSDB(l)** |       |       | **MS-FSDB(l)** |       |       |
+| SSD                 |               | 71.2  | 84.4  | 77.8  | 81.0  | 90.2  | 85.6  | 75.9  | 87.1  | 81.5  | 88.0  | **90.9** | 89.4  |
+| ~+ATDH              |               | **89.8** | **90.9** | **90.3** | **87.7** | **90.9** | **89.3** | **90.5** | **90.9** | **90.7** | **89.6** | 90.8  | **90.2** |
+| RetinaNet           |               | 80.4  | 89.4  | 84.9  | 81.0  | 90.5  | 85.8  | 87.0  | 88.4  | 87.7  | 89.5  | 89.6  | 89.6  |
+| ~+ATDH              |               | **87.8** | **90.9** | **89.3** | **81.8** | **90.9** | **86.4** | **90.4** | **90.0** | **90.2** | **90.8** | **90.9** | **90.7** |
+| Faster RCNN         |               | 98.0  | 93.0  | 95.5  | 98.2  | 93.5  | 95.8  | 98.0  | 94.1  | 96.1  | 97.3  | 95.9  | 96.6  |
+| ~+ATDH              |               | **98.2** | **98.1** | **98.2** | **98.3** | **96.8** | **97.5** | **98.6** | **98.3** | **98.4** | **99.2** | **98.2** | **98.7** |
+| FCOS                |               | 94.1  | 95.9  | 95.0  | 95.6  | 98.4  | 97.0  | 95.5  | 96.2  | 95.8  | 96.0  | 96.7  | 96.3  |
+| ~+ATDH              |               | **98.3** | **99.3** | **98.8** | **97.1** | **98.9** | **98.0** | **98.1** | **97.6** | **97.9** | **98.4** | **98.6** | **98.5** |
 
 ---
 
