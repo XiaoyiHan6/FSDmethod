@@ -233,4 +233,39 @@ The Detection of Transparent Targets Images in FSD, (a) the false results of gen
 
 ---
 
+<h2 align="center">
+<strong>BibTeX</strong>
+</h2>
+ 
+```
+@InProceedings{han2024mmAsia,
+author="Han, Xiaoyi
+and Pu, Nan
+and Feng, Zunlei
+and Bei, Yijun
+and Zhang, Qifei
+and Cheng, Lechao
+and Xue, Liang",
+editor="Lin, Zhouchen
+and Cheng, Ming-Ming
+and He, Ran
+and Ubul, Kurban
+and Silamu, Wushouer
+and Zha, Hongbin
+and Zhou, Jie
+and Liu, Cheng-Lin",
+title="Benchmarking Multi-Scene Fire and Smoke Detection",
+booktitle="Pattern Recognition and Computer Vision",
+year="2025",
+publisher="Springer Nature Singapore",
+address="Singapore",
+pages="203--218",
+abstract="The current irregularities in existing public Fire and Smoke Detection (FSD) datasets have become a bottleneck in the advancement of FSD technology. Upon in-depth analysis, we identify the core issue as the lack of standardized dataset construction, uniform evaluation systems, and clear performance benchmarks. To address this issue and drive innovation in FSD technology, we systematically gather diverse resources from public sources to create a more comprehensive and refined FSD benchmark. Additionally, recognizing the inadequate coverage of existing dataset scenes, we strategically expand scenes, relabel, and standardize existing public FSD datasets to ensure accuracy and consistency. We aim to establish a standardized, realistic, unified, and efficient FSD research platform that mirrors real-life scenes closely. Through our efforts, we aim to provide robust support for the breakthrough and development of FSD technology. The project is available at https://xiaoyihan6.github.io/FSD/.",
+isbn="978-981-97-8795-1"
+}
+
+```
+
+---
+
 **Note**:Could you please give me a "one-click triple support"🔥 ("**Star**"🚀,"**Fork**"🔖,"**Issues**"❓)<br>
