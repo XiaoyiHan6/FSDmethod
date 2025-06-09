@@ -46,7 +46,9 @@
 
 ---
 
-<h2 align="center"><strong>Note</strong></h2>
+<h2 align="center">
+<strong>Note</strong>
+</h2>
 
 Dear Visitors,
 <br>
@@ -61,7 +63,10 @@ Best regards,
 Xiaoyi Han
 
 ---
-<h2 align="center"><strong>Compiling environment</strong></h2>
+
+<h2 align="center">
+<strong>Compiling environment</strong>
+</h2>
 
 ```
 python == 3.8.5
@@ -94,7 +99,9 @@ tqdm
 
 ---
 
-<h2 align="center"><strong>Folder Organization</strong><h2>
+<h2 align="center">
+<strong>Folder Organization</strong>
+</h2>
 
 I use Ubuntu20.04 (OS).
 
@@ -124,7 +131,9 @@ We use <strong>MyFireNet</strong> instead of the name <strong>FCOS</strong>.
 
 ---
 
-<h2 align="center"><strong>Training and Evaluation</strong></h2>
+<h2 align="center">
+<strong>Training and Evaluation</strong>
+</h2>
 
 ---
 
