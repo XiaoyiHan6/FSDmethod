@@ -104,6 +104,31 @@ tqdm
 <strong>Folder Organization</strong>
 </p>
 
+I use Ubuntu20.04 (OS).
+
+```
+project path: /data/PycharmProject
+
+FSDmethod path: /data/PycharmProject/FSDmethod
+projects
+├── assets
+├── README.md
+├── SSD (the same as FCOS)
+├── RetinaNet (the same as FCOS)
+└── FCOS
+      ├── checkpoints
+      ├── configs
+      ├── data
+      ├── log
+      ├── models (Head->ATDH)
+      ├── options
+      ├── results
+      ├── tensorboard
+      ├── tools
+      └── utils
+
+```
+
 ---
 
 **Note**:Could you please give me a "one-click triple support"🔥 ("**Star**"🚀,"**Fork**"🔖,"**Issues**"❓)<br>
