@@ -1,0 +1,44 @@
+Models:
+  name: SSD
+  batch_norm: False
+Backbones:
+  name: vgg
+  depth: 16
+  boxes_per_location: [ 4, 6, 6, 6, 4, 4 ]
+  out_channels: [ 512, 1024, 512, 256, 256, 256 ]
+  extras: [ 256, 'S', 512, 128, 'S', 256, 128, 256, 128, 256 ]
+Head:
+  name: baseline # atdh, sknet, senet, baseline
+Data:
+  name: myfire_trainval
+  size: 300
+  num_classes: 3
+  root: '/data/FireDataset'
+Optimize:
+  epoch: 500
+  display_iter: 100
+  display_eval: 9   # 29
+  lr: 0.001
+  optim: 'sgd'
+  batch_size: 24
+  scheduler: 'MultiStepLR'
+  lr_step: [300, 400] # [ 480, 720, 780 ]
+  warmup_steps: 1
+  step: 500
+
+Prior_box:
+  feature_maps: [ 38, 19, 10, 5, 3, 1 ]
+  steps: [ 8, 16, 32, 64, 100, 300 ]
+  min_sizes: [ 30, 60, 111, 162, 213, 264 ]
+  max_sizes: [ 60, 111, 162, 213, 264, 315 ]
+  aspect_ratios: [ [ 2 ],[ 2, 3 ],[ 2, 3 ],[ 2, 3 ],[ 2 ],[ 2 ] ]
+  variance: [ 0.1, 0.2 ]
+  clip: True
+Train:
+  match_thresh: 0.5
+  neg_pos: 3
+  neg_thresh: 0.5
+Test:
+  top_k: 150
+  conf_thresh: 0.05 # confidence thresh to keep at test time
+  nms_thresh: 0.5  # nms iou thresh at test time

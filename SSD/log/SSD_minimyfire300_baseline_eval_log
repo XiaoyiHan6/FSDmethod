@@ -1,0 +1,6 @@
+2024-08-04 01:15:30,904 - SSD_minimyfire300_eval - INFO - Evaluation VOC Dataset Program started
+2024-08-04 01:16:56,560 - SSD_minimyfire300_eval - INFO - Evaluation VOC Dataset Program started
+2024-08-04 01:17:12,049 - SSD_minimyfire300_eval - INFO - AP for fire = 0.7112
+2024-08-04 01:17:12,049 - SSD_minimyfire300_eval - INFO - AP for smoke = 0.8443
+2024-08-04 01:17:12,049 - SSD_minimyfire300_eval - INFO - Mean AP = 0.7777
+2024-08-04 01:17:12,049 - SSD_minimyfire300_eval - INFO - Done!

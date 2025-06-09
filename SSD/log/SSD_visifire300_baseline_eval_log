@@ -1,0 +1,5 @@
+2024-08-04 01:01:55,514 - SSD_visifire300_eval - INFO - Evaluation VOC Dataset Program started
+2024-08-04 01:02:15,382 - SSD_visifire300_eval - INFO - AP for fire = 0.7823
+2024-08-04 01:02:15,382 - SSD_visifire300_eval - INFO - AP for smoke = 0.8952
+2024-08-04 01:02:15,382 - SSD_visifire300_eval - INFO - Mean AP = 0.8387
+2024-08-04 01:02:15,382 - SSD_visifire300_eval - INFO - Done!

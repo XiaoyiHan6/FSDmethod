@@ -31,7 +31,7 @@
   <font size=5><strong>Fire and Smoke Detection with Burning Intensity Representation</strong></font>
     <br>
         <a href="https://xiaoyihan6.github.io/">Xiaoyi Han</a>,
-	<a/>Yanfei Wu</a>,
+	<a >Yanfei Wu</a>,
         <a href="https://tpcd.github.io/">Nan Pu</a>,
         <a href="https://person.zju.edu.cn/fengzunlei">Zunlei Feng</a>,<br>
         <a href="https://person.zju.edu.cn/zhangqf">Qifei Zhang</a>,
@@ -106,25 +106,36 @@ tqdm
 I use Ubuntu20.04 (OS).
 
 ```
-project path: /data/PycharmProject
-
+# Project
 FSDmethod path: /data/PycharmProject/FSDmethod
-projects
 ├── assets
 ├── README.md
-├── SSD (the same as FCOS)
-├── RetinaNet (the same as FCOS)
+├── SSD ( layout-> the same as FCOS)
+├── RetinaNet ( layout-> the same as FCOS)
 └── MyFireNet (FCOS)
       ├── checkpoints
       ├── configs
       ├── data
-      ├── log
+      ├── log (accuracy)
       ├── models (Head->ATDH)
       ├── options
-      ├── results
+      ├── results (visualization)
       ├── tensorboard
       ├── tools
       └── utils
+      
+# Dataset      
+Dataset path: /data/
+├── 1_VisiFire (layout -> the same as MS-FSDB)
+├── 2_FIRESENSE (layout -> the same as MS-FSDB)
+├── 3_furg_fire-dataset (layout -> the same as MS-FSDB)
+├── 4_BoWFireDataset (layout -> the same as MS-FSDB)
+├── 5_FIRE_SMOKE_DATASET (layout -> the same as MS-FSDB)
+└── MS-FSDB
+       ├──data
+       ├──images
+       ├──labels
+       └──layout
 
 ```
 We use <strong>MyFireNet</strong> instead of the name <strong>FCOS</strong>.
@@ -132,9 +143,22 @@ We use <strong>MyFireNet</strong> instead of the name <strong>FCOS</strong>.
 ---
 
 <h2 align="center">
-<strong>Training and Evaluation</strong>
+<strong>Training and Evaluation, Visualization</strong>
 </h2>
 
+```
+# SSD
+# path:/data/PycharmProject/FSDmethod/SSD/tools
+
+# Training 
+run train.py
+
+# Evaluation
+run eval_voc.py
+
+# Visualization
+run visualize.py
+```
 ---
 
 **Note**:Could you please give me a "one-click triple support"🔥 ("**Star**"🚀,"**Fork**"🔖,"**Issues**"❓)<br>

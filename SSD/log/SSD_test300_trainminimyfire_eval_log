@@ -1,0 +1,5 @@
+2024-04-09 19:15:21,852 - SSD_test300_eval - INFO - Evaluation VOC Dataset Program started
+2024-04-09 19:15:26,656 - SSD_test300_eval - INFO - AP for fire = 0.7870
+2024-04-09 19:15:26,656 - SSD_test300_eval - INFO - AP for smoke = 0.6010
+2024-04-09 19:15:26,656 - SSD_test300_eval - INFO - Mean AP = 0.6940
+2024-04-09 19:15:26,656 - SSD_test300_eval - INFO - Done!

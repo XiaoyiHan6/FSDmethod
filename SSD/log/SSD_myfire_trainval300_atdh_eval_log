@@ -1,0 +1,5 @@
+2024-08-03 21:31:32,044 - SSD_myfire_trainval300_eval - INFO - Evaluation VOC Dataset Program started
+2024-08-03 21:36:23,632 - SSD_myfire_trainval300_eval - INFO - AP for fire = 0.8774
+2024-08-03 21:36:23,632 - SSD_myfire_trainval300_eval - INFO - AP for smoke = 0.9087
+2024-08-03 21:36:23,632 - SSD_myfire_trainval300_eval - INFO - Mean AP = 0.8930
+2024-08-03 21:36:23,632 - SSD_myfire_trainval300_eval - INFO - Done!

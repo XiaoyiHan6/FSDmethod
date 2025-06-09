@@ -1,0 +1,5 @@
+2024-08-04 01:11:03,678 - SSD_firesense300_eval - INFO - Evaluation VOC Dataset Program started
+2024-08-04 01:11:19,617 - SSD_firesense300_eval - INFO - AP for fire = 0.8897
+2024-08-04 01:11:19,617 - SSD_firesense300_eval - INFO - AP for smoke = 0.9043
+2024-08-04 01:11:19,617 - SSD_firesense300_eval - INFO - Mean AP = 0.8970
+2024-08-04 01:11:19,617 - SSD_firesense300_eval - INFO - Done!
