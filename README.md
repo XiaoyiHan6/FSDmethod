@@ -215,7 +215,7 @@ Table 3: The attention mechanism algorithm added to the baseline (FCOS) on the M
 
 The Detection of Transparent Targets Images in FSD, (a) the false results of generic detection, (b) that the proposed method successfully detected the previous failure result. In the diagram, blue boxes represent ground truth and red boxes represent predicted results.
 
-<h4>Row 1 (Generic Detection Results)</h4>
+<h4>Row 1 transparent targets suffers from missed detection</h4>
 <div style="display: flex; overflow-x: auto; white-space: nowrap;">
   <img src="assets/images/4a1.jpg" style="width:23%; min-width:23%; display: inline-block;">
   <img src="assets/images/4a2.jpg" style="width:23%; min-width:23%; display: inline-block;">
@@ -223,7 +223,7 @@ The Detection of Transparent Targets Images in FSD, (a) the false results of gen
   <img src="assets/images/4a4.jpg" style="width:23%; min-width:23%; display: inline-block;">
 </div>
 
-<h4>Row 2 (Proposed Method Results)</h4>
+<h4>Row 2 proposed method results</h4>
 <div style="display: flex; overflow-x: auto; white-space: nowrap;">
   <img src="assets/images/4b1.jpg" style="width:23%; min-width:23%; display: inline-block;">
   <img src="assets/images/4b2.jpg" style="width:23%; min-width:23%; display: inline-block;">
