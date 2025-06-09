@@ -164,135 +164,20 @@ run visualize.py
 <strong>Results</strong>
 </h2>
 
-<table>
-    <caption style="text-align: left">Table 1:Baseline model comparison across different datasets. Fire, Smoke and mAP are given in the subsection "Setting and Details". "avg" represents the average of mAP (mean Average Precision) values of all models across the FSD datasets. "s" represents the input image of small size, while "l" represents the input image of large size. F-RCNN means Faster RCNN.</caption>
-    <thead>
-        <tr>
-            <th rowspan="2">Dataset</th>
-            <th colspan="3">SSD (s/l)</th>
-            <th colspan="3">RetinaNet (s/l)</th>
-            <th colspan="3">F-RCNN (s/l)</th>
-            <th colspan="3">FCOS (s/l)</th>
-            <th colspan="3">a-FSDM (s/l)</th>
-            <th rowspan="2">avg (mAP)</th>
-        </tr>
-        <tr>
-            <th>Fire</th><th>Smoke</th><th>mAP</th>
-            <th>Fire</th><th>Smoke</th><th>mAP</th>
-            <th>Fire</th><th>Smoke</th><th>mAP</th>
-            <th>Fire</th><th>Smoke</th><th>mAP</th>
-            <th>Fire</th><th>Smoke</th><th>mAP</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>Fire-Smoke-Dataset (s)</td>
-            <td>77.5</td><td>90.8</td><td>84.1</td>
-            <td>90.7</td><td>90.7</td><td>90.7</td>
-            <td>97.3</td><td>93.2</td><td>95.3</td>
-            <td>97.2</td><td>98.5</td><td>97.8</td>
-            <td><strong>97.5</strong></td><td><strong>99.2</strong></td><td><strong>98.3</strong></td>
-            <td style="color: red;">93.2</td>
-        </tr>
-        <tr>
-            <td>Furg-Fire-Dataset (s)</td>
-            <td>75.8</td><td>86.9</td><td>81.4</td>
-            <td>81.7</td><td>90.0</td><td>85.8</td>
-            <td><strong>95.8</strong></td><td>93.4</td><td>94.6</td>
-            <td>93.7</td><td><strong>98.1</strong></td><td>95.9</td>
-            <td>94.2</td><td><strong>98.1</strong></td><td><strong>96.1</strong></td>
-            <td style="color: red;">90.8</td>
-        </tr>
-        <tr>
-            <td>VisiFire (s)</td>
-            <td>78.2</td><td>89.5</td><td>83.9</td>
-            <td>84.2</td><td>90.7</td><td>87.4</td>
-            <td>92.8</td><td>88.8</td><td>90.8</td>
-            <td>88.8</td><td>96.7</td><td>92.8</td>
-            <td><strong>96.2</strong></td><td><strong>99.4</strong></td><td><strong>97.8</strong></td>
-            <td style="color: red;">90.5</td>
-        </tr>
-        <tr>
-            <td>FIRESENSE (s)</td>
-            <td>89.0</td><td>90.4</td><td>89.7</td>
-            <td>90.9</td><td>90.9</td><td>90.9</td>
-            <td>96.8</td><td>95.8</td><td>96.3</td>
-            <td>96.1</td><td>96.1</td><td>96.1</td>
-            <td><strong>98.3</strong></td><td><strong>98.1</strong></td><td><strong>98.2</strong></td>
-            <td style="color: red;">94.2</td>
-        </tr>
-        <tr>
-            <td>BoWFireDataset (s)</td>
-            <td>69.6</td><td>84.7</td><td>77.1</td>
-            <td>72.3</td><td>88.4</td><td>80.3</td>
-            <td><strong>86.3</strong></td><td>95.0</td><td>90.6</td>
-            <td>85.1</td><td>95.2</td><td>90.2</td>
-            <td>86.1</td><td><strong>97.9</strong></td><td><strong>92.0</strong></td>
-            <td style="color: red;">86.0</td>
-        </tr>
-        <tr>
-            <td>miniMS-FSDB (s)</td>
-            <td>71.2</td><td>84.4</td><td>77.8</td>
-            <td>80.4</td><td>89.4</td><td>84.9</td>
-            <td>98.0</td><td>93.0</td><td>95.5</td>
-            <td>94.1</td><td>95.9</td><td>95.0</td>
-            <td><strong>98.3</strong></td><td><strong>99.3</strong></td><td><strong>98.8</strong></td>
-            <td style="color: red;">90.4</td>
-        </tr>
-        <tr>
-            <td>MS-FSDB (s)</td>
-            <td>81.0</td><td>90.2</td><td>85.6</td>
-            <td>81.0</td><td>90.5</td><td>85.8</td>
-            <td><strong>98.2</strong></td><td>93.5</td><td>95.8</td>
-            <td>95.6</td><td>98.4</td><td>97.0</td>
-            <td>97.1</td><td><strong>98.9</strong></td><td><strong>98.0</strong></td>
-            <td style="color: red;">92.4</td>
-        </tr>
-        <tr>
-            <td>miniMS-FSDB (l)</td>
-            <td>75.9</td><td>87.1</td><td>81.5</td>
-            <td>87.0</td><td>88.4</td><td>87.7</td>
-            <td>98.0</td><td>94.1</td><td>96.1</td>
-            <td>95.5</td><td>96.2</td><td>95.8</td>
-            <td><strong>98.1</strong></td><td><strong>97.6</strong></td><td><strong>97.9</strong></td>
-            <td style="color: red;">91.8</td>
-        </tr>
-        <tr>
-            <td>MS-FSDB (l)</td>
-            <td>88.0</td><td>90.9</td><td>89.4</td>
-            <td>89.5</td><td>89.6</td><td>89.6</td>
-            <td>97.3</td><td>95.9</td><td>96.6</td>
-            <td>96.0</td><td>96.7</td><td>96.3</td>
-            <td><strong>98.4</strong></td><td><strong>98.6</strong></td><td><strong>98.5</strong></td>
-            <td style="color: red;">94.1</td>
-        </tr>
-    </tbody>
-</table>
+Table 1:Baseline model comparison across different datasets. Fire, Smoke and mAP are given in the subsection "Setting and Details". "avg" represents the average of mAP (mean Average Precision) values of all models across the FSD datasets. "s" represents the input image of small size, while "l" represents the input image of large size. F-RCNN means Faster RCNN.
 
-<style>
-    table {
-        width: 100%;
-        border-collapse: collapse;
-        margin: 20px 0;
-        font-family: Arial, sans-serif;
-    }
-    caption {
-        font-weight: bold;
-        margin-bottom: 10px;
-        text-align: left;
-    }
-    th, td {
-        border: 1px solid #ddd;
-        padding: 8px;
-        text-align: center;
-    }
-    th {
-        background-color: #f2f2f2;
-    }
-    tr:nth-child(even) {
-        background-color: #f9f9f9;
-    }
-</style>
+| Dataset                   | SSD (s/l) Fire | Smoke | mAP  | RetinaNet (s/l) Fire | Smoke | mAP  | F-RCNN (s/l) Fire | Smoke | mAP  | FCOS (s/l) Fire | Smoke | mAP  | a-FSDM (s/l) Fire | Smoke | mAP  | <span style="color:red"> avg (mAP) </span> |
+|---------------------------|----------------|-------|------|-----------------------|-------|------|-------------------|-------|------|-----------------|-------|------|------------------|-------|------|-----------|
+| Fire-Smoke-Dataset (s)    | 77.5           | 90.8  | 84.1 | 90.7                 | 90.7  | 90.7 | 97.3             | 93.2  | 95.3 | 97.2           | 98.5  | 97.8 | **97.5**        | **99.2** | **98.3** | <span style="color:red"> 93.2 </span>     |
+| Furg-Fire-Dataset (s)     | 75.8           | 86.9  | 81.4 | 81.7                 | 90.0  | 85.8 | **95.8**         | 93.4  | 94.6 | 93.7           | **98.1** | 95.9 | 94.2           | **98.1** | **96.1** | <span style="color:red"> 90.8 </span>     |
+| VisiFire (s)              | 78.2           | 89.5  | 83.9 | 84.2                 | 90.7  | 87.4 | 92.8             | 88.8  | 90.8 | 88.8           | 96.7  | 92.8 | **96.2**        | **99.4** | **97.8** | <span style="color:red"> 90.5 </span>     |
+| FIRESENSE (s)             | 89.0           | 90.4  | 89.7 | 90.9                 | 90.9  | 90.9 | 96.8             | 95.8  | 96.3 | 96.1           | 96.1  | 96.1 | **98.3**        | **98.1** | **98.2** | <span style="color:red"> 94.2 </span>     |
+| BoWFireDataset (s)        | 69.6           | 84.7  | 77.1 | 72.3                 | 88.4  | 80.3 | **86.3**         | 95.0  | 90.6 | 85.1           | 95.2  | 90.2 | 86.1           | **97.9** | **92.0** | <span style="color:red"> 86.0 </span>     |
+| miniMS-FSDB (s)           | 71.2           | 84.4  | 77.8 | 80.4                 | 89.4  | 84.9 | 98.0             | 93.0  | 95.5 | 94.1           | 95.9  | 95.0 | **98.3**        | **99.3** | **98.8** | <span style="color:red"> 90.4 </span>     |
+| MS-FSDB (s)               | 81.0           | 90.2  | 85.6 | 81.0                 | 90.5  | 85.8 | **98.2**         | 93.5  | 95.8 | 95.6           | 98.4  | 97.0 | 97.1           | **98.9** | **98.0** | <span style="color:red"> 92.4 </span>     |
+| miniMS-FSDB (l)           | 75.9           | 87.1  | 81.5 | 87.0                 | 88.4  | 87.7 | 98.0             | 94.1  | 96.1 | 95.5           | 96.2  | 95.8 | **98.1**        | **97.6** | **97.9** | <span style="color:red"> 91.8 </span>     |
+| MS-FSDB (l)               | 88.0           | 90.9  | 89.4 | 89.5                 | 89.6  | 89.6 | 97.3             | 95.9  | 96.6 | 96.0           | 96.7  | 96.3 | **98.4**        | **98.6** | **98.5** | <span style="color:red"> 94.1 </span>     |
+
 
 ---
 
