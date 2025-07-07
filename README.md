@@ -22,9 +22,12 @@
     <img src="https://img.shields.io/badge/Code-FSD%20method-CD5C5C?style=flat-square">
   </a>
 &nbsp;&nbsp;&nbsp;
+  <a href="https://drive.google.com/drive/folders/1aEx8wLQhT0u-INCtbTCzOqW-LFLQxK0P?usp=drive_link" target='_blank'>
+    <img src="https://img.shields.io/badge/Weight-Model-FF9CAD?style=flat-square">
+  </a> 
+&nbsp;&nbsp;&nbsp;
   <a href="https://github.com/XiaoyiHan6/FSDmethod" target='_blank'>
     <img src="https://visitor-badge.laobi.icu/badge?page_id=XiaoyiHan6.FSDmethod">
-
   </a> 
 </p>
  <p align="center">
